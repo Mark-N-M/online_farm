@@ -19,8 +19,8 @@
  <v-container class="bg-secondary" max-width="100%">
     <v-row>
         <v-col class="text-center">
-            <div class="text-display-medium mb-12" > Welcome to Shamba Online!</div>
-            <div class="text-title-large font-weight-light text-medium-emphasis mb-8 text-white">Welcome to Shamba Online, a vibrant digital marketplace where fresh, sustainably grown produce meets the convenience of your screen. The homepage immediately connects you to the heart of the farm, featuring a live "Harvest Tracker" that shows exactly what fruits and vegetables are peaking this week. With its warm, earthy design and intuitive navigation, visitors can effortlessly browse seasonal organic boxes, sign up for the local CSA program, or explore quick, farm-fresh recipes.</div>
+            <div class="text-display-medium mb-12" > Welcome to AgriShamba!</div>
+            <div class="text-title-large font-weight-light text-medium-emphasis mb-8 text-white">Welcome to AgriShamba, a vibrant digital marketplace where fresh, sustainably grown produce meets the convenience of your screen. The homepage immediately connects you to the heart of the farm, featuring a live "Harvest Tracker" that shows exactly what fruits and vegetables are peaking this week. With its warm, earthy design and intuitive navigation, visitors can effortlessly browse seasonal organic boxes, sign up for the local CSA program, or explore quick, farm-fresh recipes.</div>
             <div class="text-title-large font-weight-light text-medium-emphasis mb-8 text-white">More than just a store, Shamba Online serves as a community hub bridging the gap between local agriculture and your kitchen. A streamlined, secure checkout makes supporting sustainable farming seamless, while a dedicated backyard-gardening blog offers practical tips for eco-conscious shoppers. Complete with glowing customer reviews and a schedule of upcoming community harvest days, the page turns everyday grocery shopping into a meaningful connection with the land.</div>
         </v-col>
     </v-row>
@@ -74,7 +74,7 @@
         <v-col>
             <div align="center">
                 <router-link to="/">
-                    <v-img src="/shambalogo1.png" width="50%" height="50%" ></v-img>
+                    <v-img src="/shambalogo3.png" width="50%" height="50%" ></v-img>
                 </router-link>
 
                 <p> Copyright Shamba Online &copy; 2026</p>

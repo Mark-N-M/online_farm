@@ -7,7 +7,7 @@
 
       <v-app-bar-title>
         <router-link to="/">
-          <v-img src="/shambalogo1.png" width="13%" height="11%"></v-img>
+          <v-img src="/shambalogo3.png" width="13%" height="11%"></v-img>
         </router-link>
       </v-app-bar-title>
       
