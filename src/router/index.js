@@ -23,7 +23,7 @@ const router = createRouter({
      component: Admin 
      },
 
-    { path: '/product_detail',
+    { path: '/product_details',
        name: 'ProductDetail',
        component: ProductDetail 
     },

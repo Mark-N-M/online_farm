@@ -10,7 +10,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Fruit",           
                 price: 100,
                 availability: true,
-                image: 'tomatost.jpg'
+                image: 'product9.jpg'
             },
 
              1:{
@@ -19,7 +19,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Fruit",           
                 price: 30,
                 availability: false,
-                image: 'tangerinest.jpg'
+                image: 'product2.jpg'
             },
 
              2:{
@@ -37,7 +37,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Fruit",           
                 price: 210,
                 availability: false,
-                image: 'bananast.jpg'
+                image: 'product7.jpg'
             },
              4:{
                 id: 5,
@@ -45,7 +45,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Animal Produce",           
                 price: 175,
                 availability: false,
-                image: 'eggst.jpg'
+                image: 'product3.jpg'
             },
 
              5:{
@@ -54,7 +54,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Fruit",           
                 price: 250,
                 availability: false,
-                image: 'kiwist.jpg'
+                image: 'product13.jpg'
             },
 
              6:{
@@ -63,7 +63,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Animal Produce",           
                 price: 60,
                 availability: true,
-                image: 'milkst.jpg'
+                image: 'product11.jpg'
             },
 
              7:{
@@ -72,7 +72,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Fruit",           
                 price: 165,
                 availability: true,
-                image: 'blueberriesst.jpg'
+                image: 'product5.jpg'
             },
 
              8:{
@@ -81,7 +81,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Fruit",           
                 price: 350,
                 availability: true,
-                image: 'dragonfruitst.jpg'
+                image: 'product4.jpg'
             },
 
              9:{
@@ -90,7 +90,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Vegetable",           
                 price: 50,
                 availability: false,
-                image: 'gingerst.jpg'
+                image: 'product14.jpg'
             },
 
             10:{
@@ -99,7 +99,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Fruit",           
                 price: 50,
                 availability: false,
-                image: 'pineapplest.jpg'
+                image: 'product10.jpg'
             },
 
             11:{
@@ -108,7 +108,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Fruit",           
                 price: 50,
                 availability: false,
-                image: 'avocadost.jpg'
+                image: 'product1.jpg'
             },
 
             13:{
@@ -117,7 +117,7 @@ export const useProductsStore = defineStore('products',  {
                 category: "Vegetable",           
                 price: 50,
                 availability: false,
-                image: 'brocollist.jpg'
+                image: 'product15.jpg'
             },
 
              14:{
@@ -126,21 +126,23 @@ export const useProductsStore = defineStore('products',  {
                 category: "Vegetable",           
                 price: 50,
                 availability: false,
-                image: 'bellpepperst.jpg'
+                image: 'product6.jpg'
             },
 
-
             
-
-
+            
+            
         }
+        const selectedProduct = ref(null)
        
         return{
-            products
+            products, selectedProduct
         }
    },
    actions:{
-       
+   updateSelectedProduct(payload){
+    this.selectedProduct = payload
+   }    
    },
    persist: true,
 })

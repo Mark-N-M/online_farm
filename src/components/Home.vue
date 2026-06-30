@@ -74,7 +74,7 @@
         <v-col>
             <div align="center">
                 <router-link to="/">
-                    <v-img src="/shambalogo3.png" width="50%" height="50%" ></v-img>
+                    <v-img src="/agrishambalogo.png" width="50%" height="50%" ></v-img>
                 </router-link>
 
                 <p> Copyright Shamba Online &copy; 2026</p>
